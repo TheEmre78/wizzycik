@@ -5,7 +5,7 @@ exports.run = async (client, message, args, level) => {
     .setTitle(``)
     .setAuthor(`Windes  | Discord Bot Toplam Komut Sayısı`)
     .setDescription(
-      `✅ **Windes  Toplam**  \`` +
+      `✅ **CSL  Toplam**  \`` +
         client.commands.size +
         `\` **Komut Vardır!**`
     )
