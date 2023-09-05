@@ -5,13 +5,13 @@ let prefix = ayarlar.prefix;
 
 exports.run = async (bot, msg, args) => {
   const çekiliş = new Discord.MessageEmbed()
-    .setAuthor(`Windes  | Ticket Sistem`)
+    .setAuthor(`CSL  | Ticket Sistem`)
     .setTitle(``)
    .setImage('https://cdn.discordapp.com/attachments/1108819464524415097/1109034877774483466/standard_7.gif')
     .setColor(`#ee7621`)
      
     .setDescription(
-      ``
+      `CSL Botumuz Privatedir Başka Sunucularda Kullanılması Yasaktır!`
     )
     .addField(
       `**__Ticket__** `,
@@ -46,7 +46,7 @@ exports.run = async (bot, msg, args) => {
     )
     .addField(
       `__Bilgilendirme__`,
-      `🎯  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🎯 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
+      `🎯 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
     );
   msg.channel.send(çekiliş);
 };

@@ -4,14 +4,14 @@ let prefix = ayarlar.prefix;
 
 exports.run = async (bot, msg, args) => {
   const seviye = new Discord.MessageEmbed()
-    .setAuthor(`Windes | OtoRol Sistem`)
+    .setAuthor(`CSL | OtoRol Sistem`)
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(
       "https://cdn.discordapp.com/attachments/1108819464524415097/1109034877774483466/standard_7.gif"
     )
     .setDescription(
-      `🟣 Windes Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
+      `🟣 CSL Botumuz Privatedir Başka Sunucularda Kullanılması Yasaktır!`
     )
     .addField(
       `**__OtoRol__**`,
@@ -35,7 +35,7 @@ exports.run = async (bot, msg, args) => {
     )
     .addField(
       `__Bilgilendirme__`,
-      `©️  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n ©️ \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
+      ` ©️ \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
     );
   msg.channel.send(seviye);
 };
