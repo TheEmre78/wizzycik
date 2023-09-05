@@ -5,13 +5,13 @@ let prefix = ayarlar.prefix;
 exports.run = async (client, message) => {
 
   const embedgenel = new Discord.MessageEmbed()
-    .setAuthor(`Windes  | Genel`)
+    .setAuthor(`CSL  | Genel`)
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(client.user.avatarURL())
   .setImage('https://cdn.discordapp.com/attachments/1108819464524415097/1109034877774483466/standard_7.gif')
     .setDescription(
-      `🌀 Windes  Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
+      `🌀 CSL Botumuz Privatedir Başka Sunucularda Kullanılması Yasaktır!`
     )
     .addField(
       `__Oylama__`,
@@ -34,8 +34,8 @@ exports.run = async (client, message) => {
       true
     )
     .addField(
-      `__Davet__`,
-      ` 🚩   \`${prefix}davet\` ShadowRise Network Davet Menüsünü Görürsün.`,
+      `__YAKINDA!__`,
+      ` 🚩   \`${prefix}YAKINDA!\` YAKINDA!.`,
       true
     )
     .addField(
@@ -60,7 +60,7 @@ exports.run = async (client, message) => {
     )
     .addField(
       `__Bilgilendirme__`,
-      ` 🚩  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n ⚠️ \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
+      ` ⚠️ \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
     );
   return message.channel.send(embedgenel);
 };

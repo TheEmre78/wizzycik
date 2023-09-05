@@ -4,13 +4,13 @@ let prefix = ayarlar.prefix;
 
 exports.run = async (bot, msg, args) => {
   const seviye = new Discord.MessageEmbed()
-    .setAuthor(`Windes | Öneri Sistem`)
+    .setAuthor(`CSL | Öneri Sistem`)
     .setTitle(``)
     .setImage('https://cdn.discordapp.com/attachments/1108819464524415097/1109034877774483466/standard_7.gif')
     .setColor("#00ff00")
     
     .setDescription(
-      `Ⓜ️ Windes Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
+      `CSL Botumuz Privatedir Başka Sunucularda Kullanılması Yasaktır!`
     )
     .addField(
       `**__ÖneriLog Ayarla__**`,
@@ -28,13 +28,13 @@ exports.run = async (bot, msg, args) => {
       true
     )
     .addField(
-      `**__Shadow Sunucuya Özel Öneri__**`,
+      `**__CSL Sunucuya Özel Öneri__**`,
       `<a:green:822530401301954632> \`${prefix}öneri\` \n Discord Sunucumuza Bota Veya MCSunucumuza Öneri Yapabilirsiniz..`,
       true
     )
     .addField(
       `__Bilgilendirme__`,
-      `⚜️  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n ⚜️ \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
+      ` ⚜️ \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
     );
   msg.channel.send(seviye);
 };
